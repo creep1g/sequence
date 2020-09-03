@@ -1,13 +1,6 @@
 '''
 Algorithm that generates the first n numbers in
 the following sequence 1,2,3,6,11,20,37......
-
-The algorithm uses three numbers on each iteration
-First we start with numbers 0, 1, 2,
-we add them: 0 + 1 + 2 = 3
-on the next iteration the numbers shift one step so they become:
-1 + 2 + 3 = 6 
-we do this n-2 amount of times
 '''
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
 #initialize first 3 integers for addition
